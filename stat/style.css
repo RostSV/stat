@@ -1,0 +1,176 @@
+@font-face {
+  font-family: "Circe-ExtraBold";
+  src: url("../stat/fonts/Circe-ExtraBold.otf");
+}
+@font-face {
+  font-family: "Circe-Regular";
+  src: url("../stat/fonts/Circle-Regular.otf");
+}
+@font-face {
+  font-family: "CRC35";
+  src: url("../stat/fonts/CRC35.otf");
+}
+@font-face {
+  font-family: "Transgender";
+  src: url("../stat/fonts/Transgender Grotesk-Regular-Trial.otf");
+}
+
+@font-face {
+    font-family: "Circle-light";
+    src: url("../stat/fonts/Circe-ExtraLight.ttf");
+  }
+
+body {
+  margin: 0;
+  
+}
+
+.item {
+  width: 375px;
+  height: 667px;
+  position: relative;
+}
+
+.statImage {
+  width: 375px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slick-track {
+  display: flex;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.container .slick-arrow {
+  position: absolute;
+  top: 52%;
+  z-index: 10;
+  font-size: 0;
+  width: auto;
+  height: 21px;
+  outline: none;
+  border: none;
+}
+.slick-next {
+  right: 10px;
+  background: url("../stat/images/sl-arrow_r.svg") 0 0 /100% no-repeat;
+}
+
+.slick-prev {
+  left: 10px;
+  background: url("../stat/images/sl-arrow_l.svg") 0 0 /100% no-repeat;
+}
+
+
+.firstSlide_number{
+    position: absolute;
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Transgender';
+    left: 45px;
+    top: 35%;
+}
+
+.SecondSlide_number{
+    color: #ff133a;
+    position: absolute;
+    font-size: 50px;
+    font-family: 'Transgender';
+    left: 45px;
+    top: 35%;
+}
+
+.calories, .flexibility, .weight{
+    position: absolute;
+    left: 45px;
+    font-family: 'Transgender';
+    font-size: 36px;
+    color: #fff;
+}
+
+.calories{
+    top: 80px;
+}
+
+.flexibility{
+    top: 319px;
+
+}
+
+.weight{
+    top: 208px;
+}
+
+.item1_text{
+    position: absolute;
+    color: #f3f3f3;
+    font-family: 'Circe-Regular';
+    font-size: 19px;
+    top: 75px;
+    left: 45px;
+}
+
+.item1_span{
+    color:#b5c2fd ;
+}
+
+.polotna, .stretching, .trx,.barre{
+    position: absolute;
+    color: rgb(224, 224, 224);
+    left: 45px;
+    font-family: 'Circle-light';
+    font-weight: 100;
+    font-size: 19px;
+    
+}
+
+.polotna{
+    top: 280px;
+}
+
+.stretching{
+    top: 180px;
+}
+
+.trx{
+    top: 380px;
+}
+
+.item4_4_span, .item4_3_span ,.item4_2_span,.item4_1_span{
+    font-family: 'Transgender';
+    font-size: 30px;
+    color: #fff;
+    
+}
+
+.barre{
+    top: 480px;
+}
+
+.link{
+    position: absolute;
+    background: #fff;
+}
+
+
+canvas{
+    display: none;
+}
+
+.download{
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border: 1px solid;
+    width: 120px;
+    text-align: center;
+    background: #fff;
+    text-decoration: none;
+    color: #000;
+
+}
